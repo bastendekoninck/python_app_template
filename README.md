@@ -9,7 +9,6 @@ poetry install
 pre-commit install
 ```
 
-
 Run tests:
 ```bash
 poetry run pytest
