@@ -21,6 +21,6 @@ jobs:
       - name: Install dependencies
         run: poetry install
       - name: Run linters
-        run: poetry pre-commit run --all-files
+        run: poetry run pre-commit run --all-files
       - name: Run tests
         run: poetry run pytest
