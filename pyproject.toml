@@ -3,11 +3,12 @@ name = "python_app_template"
 version = "0.1.0"
 description = "A starter Python app with testing, linting and CI"
 authors = ["Basten Dekoninck <basten.dekoninck@riskconcile.com>"]
+packages = [{ include = "app" }]
 
 [tool.poetry.dependencies]
 python = "^3.10"
 
-[tool.poetry.dev-dependencies]
+[tool.poetry.group.dev.dependencies]
 pytest = "^8.0"
 black = "^24.3"
 ruff = "^0.3.2"
