@@ -12,7 +12,7 @@ pre-commit install
 
 Run tests:
 ```bash
-pytest
+poetry run pytest
 ```
 
 Run the app:
@@ -22,5 +22,5 @@ poetry run python app/main.py
 
 ## Lint and format
 ```bash
-pre-commit run --all-files
+poetry run pre-commit run --all-files
 ```
