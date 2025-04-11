@@ -1,0 +1,7 @@
+__pychache__/
+*.pyc
+.env
+.poetry/
+*.egg-info/
+build/
+dist/
