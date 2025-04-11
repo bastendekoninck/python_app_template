@@ -2,7 +2,7 @@ def say_hello(name: str) -> str:
     return f"Hello, {name}"
 
 
-def main():
+def main() -> None:
     print(say_hello("world"))
 
 
