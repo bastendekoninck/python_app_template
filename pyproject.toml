@@ -21,3 +21,6 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.mypy]
 strict = true
+
+[tool.ruff]
+lint.extend-select = ["I"]
